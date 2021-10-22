@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends "fourapp/inher.html" %}
+{% block body_block %}
+
+<h1>Welcome To Index Page!</h1>
+<h2> This is a index.html page showing!</h2>
+<h1>{{text|cut:'world'}}</h1><br>
+<h1>{{number|add:"200"}}</h1>
+
+{% endblock %}
